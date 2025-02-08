@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.10557219.css",
+    "main.js": "./static/js/main.7d697594.js",
+    "static/media/ericsson_background_grey2.jpg": "./static/media/ericsson_background_grey2.3261e91c47de7491b551.jpg",
+    "static/media/spritesheet.svg": "./static/media/spritesheet.a4e0eb7ad904a4858361.svg",
+    "index.html": "./index.html",
+    "main.10557219.css.map": "./static/css/main.10557219.css.map",
+    "main.7d697594.js.map": "./static/js/main.7d697594.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10557219.css",
+    "static/js/main.7d697594.js"
+  ]
+}

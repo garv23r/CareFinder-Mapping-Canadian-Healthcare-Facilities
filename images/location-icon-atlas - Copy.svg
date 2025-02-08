@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620">
+        <defs>
+            <!-- Small cluster (green) -->
+            <g id="marker-small">
+                <path d="M80,40 C80,17.908 62.092,0 40,0 C17.908,0 0,17.908 0,40 C0,62.092 40,100 40,100 C40,100 80,62.092 80,40" fill="rgba(181, 226, 140, 0.6)" stroke="white" stroke-width="2"/>
+                <path d="M70,40 C70,23.431 56.569,10 40,10 C23.431,10 10,23.431 10,40 C10,56.569 40,85 40,85 C40,85 70,56.569 70,40" fill="rgba(110, 204, 57, 0.6)" stroke="white" stroke-width="4"/>
+            </g>
+            <!-- Medium cluster (yellow) -->
+            <g id="marker-medium">
+                <path d="M80,40 C80,17.908 62.092,0 40,0 C17.908,0 0,17.908 0,40 C0,62.092 40,100 40,100 C40,100 80,62.092 80,40" fill="rgba(241, 211, 87, 0.6)" stroke="white" stroke-width="2"/>
+                <path d="M70,40 C70,23.431 56.569,10 40,10 C23.431,10 10,23.431 10,40 C10,56.569 40,85 40,85 C40,85 70,56.569 70,40" fill="rgba(240, 194, 12, 0.6)" stroke="white" stroke-width="4"/>
+            </g>
+            <!-- Large cluster (orange) -->
+            <g id="marker-large">
+                <path d="M80,40 C80,17.908 62.092,0 40,0 C17.908,0 0,17.908 0,40 C0,62.092 40,100 40,100 C40,100 80,62.092 80,40" fill="rgba(253, 156, 115, 0.6)" stroke="white" stroke-width="2"/>
+                <path d="M70,40 C70,23.431 56.569,10 40,10 C23.431,10 10,23.431 10,40 C10,56.569 40,85 40,85 C40,85 70,56.569 70,40" fill="rgba(241, 128, 23, 0.6)" stroke="white" stroke-width="4"/>
+            </g>
+            <g id="marker-xlarge">
+                <path d="M80,40 C80,17.908 62.092,0 40,0 C17.908,0 0,17.908 0,40 C0,62.092 40,100 40,100 C40,100 80,62.092 80,40" fill="rgba(218, 94, 94, 0.6)" stroke="white" stroke-width="2"/>
+                <path d="M70,40 C70,23.431 56.569,10 40,10 C23.431,10 10,23.431 10,40 C10,56.569 40,85 40,85 C40,85 70,56.569 70,40" fill="rgba(226, 36, 36, 0.6)" stroke="white" stroke-width="4"/>
+            </g>
+        </defs>
+
+        <!-- Row 1: 1-7 -->
+        <g transform="translate(10,0)">
+            <g transform="translate(0,0)">
+                <use href="#marker-small"/>
+                <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">1</text>
+            </g>
+            <g transform="translate(100,0)">
+                <use href="#marker-small"/>
+                <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">2</text>
+            </g>
+            <g transform="translate(200,0)">
+                <use href="#marker-small"/>
+                <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">3</text>
+            </g>
+            <g transform="translate(300,0)">
+                <use href="#marker-small"/>
+                <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">4</text>
+            </g>
+            <g transform="translate(400,0)">
+                <use href="#marker-small"/>
+                <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">5</text>
+            </g>
+            <g transform="translate(500,0)">
+                <use href="#marker-small"/>
+                <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">6</text>
+            </g>
+            <g transform="translate(600,0)">
+                <use href="#marker-small"/>
+                <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">7</text>
+            </g>
+        </g>
+
+        <!-- Row 2: 8-50+ -->
+        <g transform="translate(10,120)">
+          <g transform="translate(0,0)">
+            <use href="#marker-small"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">8</text>
+          </g>
+          <g transform="translate(100,0)">
+            <use href="#marker-small"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">9</text>
+          </g>
+          <g transform="translate(200,0)">
+            <use href="#marker-medium"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">10+</text>
+          </g>
+          <g transform="translate(300,0)">
+            <use href="#marker-medium"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">20+</text>
+          </g>
+          <g transform="translate(400,0)">
+            <use href="#marker-medium"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">30+</text>
+          </g>
+          <g transform="translate(500,0)">
+            <use href="#marker-medium"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">40+</text>
+          </g>
+          <g transform="translate(600,0)">
+            <use href="#marker-medium"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">50+</text>
+          </g>
+        </g>
+
+        <!-- Row 3: 60+-300+ -->
+        <g transform="translate(10,240)">
+          <g transform="translate(0,0)">
+            <use href="#marker-medium"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">60+</text>
+          </g>
+          <g transform="translate(100,0)">
+            <use href="#marker-medium"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">70+</text>
+          </g>
+          <g transform="translate(200,0)">
+            <use href="#marker-medium"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">80+</text>
+          </g>
+          <g transform="translate(300,0)">
+            <use href="#marker-medium"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">90+</text>
+          </g>
+          <g transform="translate(400,0)">
+            <use href="#marker-large"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">100+</text>
+          </g>
+          <g transform="translate(500,0)">
+            <use href="#marker-large"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">200+</text>
+          </g>
+          <g transform="translate(600,0)">
+            <use href="#marker-large"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">300+</text>
+          </g>
+        </g>
+
+        <g transform="translate(10,360)">
+          <g transform="translate(0,0)">
+            <use href="#marker-large"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">400+</text>
+          </g>
+          <g transform="translate(100,0)">
+            <use href="#marker-large"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">500+</text>
+          </g>
+          <g transform="translate(200,0)">
+            <use href="#marker-large"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">600+</text>
+          </g>
+          <g transform="translate(300,0)">
+            <use href="#marker-large"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">700+</text>
+          </g>
+          <g transform="translate(400,0)">
+            <use href="#marker-large"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">800+</text>
+          </g>
+          <g transform="translate(500,0)">
+            <use href="#marker-large"/>
+            <text x="40" y="45" font-size="24" fill="black" text-anchor="middle" font-family="Helvetica Neue">900+</text>
+          </g>
+          <g transform="translate(600,0)">
+            <use href="#marker-xlarge"/>
+            <text x="40" y="45" font-size="20" fill="black" text-anchor="middle" font-family="Helvetica Neue">1000+</text>
+          </g>
+        </g>
+      
+        <!-- Row 5: 2000+-5000+ -->
+        <g transform="translate(10,480)">
+          <g transform="translate(0,0)">
+            <use href="#marker-xlarge"/>
+            <text x="40" y="45" font-size="20" fill="black" text-anchor="middle" font-family="Helvetica Neue">2000+</text>
+          </g>
+          <g transform="translate(100,0)">
+            <use href="#marker-xlarge"/>
+            <text x="40" y="45" font-size="20" fill="black" text-anchor="middle" font-family="Helvetica Neue">3000+</text>
+          </g>
+          <g transform="translate(200,0)">
+            <use href="#marker-xlarge"/>
+            <text x="40" y="45" font-size="20" fill="black" text-anchor="middle" font-family="Helvetica Neue">4000+</text>
+          </g>
+          <g transform="translate(300,0)">
+            <use href="#marker-xlarge"/>
+            <text x="40" y="45" font-size="20" fill="black" text-anchor="middle" font-family="Helvetica Neue">5000+</text>
+          </g>
+        </g>
+      </svg>
